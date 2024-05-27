@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header {
+    background-color: rgba(0, 238, 255, 0.329);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header col section */
+.col-20 {
+    width: 20%;
+}
+
+.col-60 {
+    width: 60%;
+}
+/* header col section end  */
+
+/* nav bar section  */
+.content {
+    padding: 8px 5px;
+    margin: 20px 0px;
+    border: 1px dashed black;
+    background-color: rgb(255, 208, 0);
+}
+
+
+.main-menu {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 9px;
+} 
+
+.main-menu li {
+    display: inline-block;
+}
+
+#login {
+    text-align: right;
+}
+/* nav bar sectione end  */
+/* header section end */
+
+/* main */
+
+/* main container  */
+.container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-lg {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* main container end  */
+
+/* col main  */
+.col-100 {
+    width: 100%;
+    border: 1px dashed black;
+    height: 300px;
+}
+
+.col-60-main {
+    width: 60%;
+    height: 300px;
+}
+
+.col-40-main {
+    width: 40%;
+    height: 300px;
+}
+
+.col-100-foot-main {
+    width: 100%;
+    height: 600px;
+}
+
+.col-33-foot-main {
+    width: 33.3333333%;
+    height: 450px;
+}
+.col-16-foot-main {
+    width: 16.6666667%;
+    height: 450px;
+}
+/* col main section end  */
+
+/* main end  */
+
+/* footer */
+
+/* content section footer  */
+.content-footer {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+.content-footer {
+    background-color: pink;
+    font-size: 25px;
+}
+
+/* content footer section end  */
+
+/* col footer section  */
+.col-100-footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.col-10-footer {
+    width: 8%;
+}
+/* col footer end  */
+
+.center-between-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer end  */
+
+/* styling class */
+
+/* background colors section  */
+.bg-blue {
+    background-color: blue;
+    padding: 20px;
+}
+
+.bg-light-grey {
+    background-color: rgba(177, 177, 177, 0.527);
+    padding: 20px;
+}
+.bg-black {
+    background-color: rgb(22, 22, 22);
+    padding: 3px 0px 20px 0px;
+}
+
+.bg-black-footer {
+    background-color: rgb(22, 22, 22);
+}
+/* background colors section end  */
+
+/* col colors section  */
+.col-roset {
+    background-color: rgb(255, 117, 237);
+}
+
+.col-blue{
+    background-color: rgb(0, 132, 255);
+}
+
+.col-pink {
+    background-color: pink;
+}
+.col-dark-pink {
+    background-color: rgb(250, 134, 134);
+}
+
+.col-dark-aqua {
+    background-color: rgb(0, 189, 189);
+}
+
+.col-aqua {
+    background-color: rgb(140, 240, 218);
+}
+
+.col-green{
+    background-color: green;
+}
+
+/* col colors section end  */
+
+.my-col {                          /* col margins  */
+    margin: 20px 0px;
+}
+
+/* border section  */
+.border-dash{
+    border: 1px dashed black;
+}
+.border-dash-white {
+    border: 1px dashed white;
+}
+
+.border-btm-footer {
+    border-bottom: 1px solid white;
+}
+/* border section end  */
