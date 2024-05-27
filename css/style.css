@@ -87,12 +87,12 @@ header {
 
 .col-60-main {
     width: 60%;
-    height: 450px;
+    height: 550px;
 }
 
 .col-40-main {
     width: 40%;
-    height: 450px;
+    height: 550px;
 }
 
 .col-100-foot-main {
@@ -159,9 +159,10 @@ header {
 }
 
 .bg-light-grey {
-    background-color: rgba(177, 177, 177, 0.527);
+    background-color: #f6f6f6;
     padding: 20px;
 }
+
 .bg-black {
     background-color: rgb(22, 22, 22);
     padding: 3px 0px 20px 0px;
@@ -173,9 +174,9 @@ header {
 /* background colors section end  */
 
 /* col colors section  */
-.col-blue{
+/* .col-blue{
     background-color: rgb(0, 132, 255);
-}
+} */
 
 .col-pink {
     background-color: pink;
@@ -199,7 +200,7 @@ header {
 /* col colors section end  */
 
 .my-col {                          /* col margins  */
-    margin: 20px 0px;
+    margin: 120px 0px;
 }
 
 /* border section  */
@@ -244,18 +245,31 @@ span {
     margin: 0px 15px;
 }
 
+.py-30 {
+    padding: 30px 0px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
 /* text size  */
 .font-size-title {
-    font-size: 40px;
+    font-size: 55px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 23px;
+    padding: 30px 0px;
+}
+
+.text-center {
     text-align: center;
-    padding: 30px;
 }
 
 /* text colors  */
 .text-white {
     color: #fff;
 }
+
+
