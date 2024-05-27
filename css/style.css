@@ -77,6 +77,12 @@ header {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.container-big-lg {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 /* main container end  */
 
 /* col main  */
@@ -116,14 +122,8 @@ header {
 
 /* content section footer  */
 .content-footer {
-    background-color: pink;
     display: flex;
     justify-content: center;
-}
-
-.content-footer {
-    background-color: pink;
-    font-size: 25px;
 }
 
 /* content footer section end  */
@@ -145,6 +145,15 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li {
+    margin-bottom: 35px;
+}
+
 
 /* footer end  */
 
@@ -173,28 +182,6 @@ header {
 }
 /* background colors section end  */
 
-/* col colors section  */
-/* .col-blue{
-    background-color: rgb(0, 132, 255);
-} */
-
-.col-pink {
-    background-color: pink;
-}
-.col-dark-pink {
-    background-color: rgb(250, 134, 134);
-}
-
-.col-dark-aqua {
-    background-color: rgb(0, 189, 189);
-}
-
-.col-aqua {
-    background-color: rgb(140, 240, 218);
-}
-
-
-/* col colors section end  */
 
 .my-col {                          /* col margins  */
     margin: 120px 0px;
@@ -208,8 +195,8 @@ header {
     border: 1px dashed white;
 }
 
-.border-btm-footer {
-    border-bottom: 1px solid white;
+.border-top-cobalt{
+    border-top: 1px solid #7289da;
 }
 /* border section end  */
 
@@ -259,6 +246,15 @@ span {
     padding-left: 100px;
 }
 
+.p-50 {
+    padding: 50px 0px;
+}
+
+.size-ita {
+    height: 25px;
+    margin-top: 25px;
+}
+
 /* text size  */
 .font-size-title {
     font-size: 55px;
@@ -266,7 +262,6 @@ span {
 
 h3 {
     font-size: 27px;
-    padding: 50px 0px;
 }
 
 p {
@@ -283,4 +278,10 @@ p {
     color: #fff;
 }
 
+.text-cobalt {
+   color: #7289da;
+}
 
+.font-size-icon {
+    font-size: 30px;
+}
